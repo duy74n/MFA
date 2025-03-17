@@ -1,10 +1,11 @@
-import { dependencies } from './package.json';
+import { dependencies, devDependencies } from './package.json';
 import type { Rspack } from '@rsbuild/core';
 
 export const mfConfig: Rspack.ModuleFederationPluginOptions = {
   name: 'remote',
   exposes: {
     './Button': './src/Button',
+    './RemoteCss': './src/App.css',
   },
   filename: 'remoteEntry.js',
   shared: {

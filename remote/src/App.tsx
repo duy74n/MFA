@@ -1,4 +1,5 @@
 import LocalButton from './Button';
+import './App.css';
 
 const App = () => (
   <div>

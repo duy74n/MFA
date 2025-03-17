@@ -1,4 +1,4 @@
-import { dependencies } from './package.json';
+import { dependencies, devDependencies } from './package.json';
 import type { Rspack } from '@rsbuild/core';
 
 export const mfConfig: Rspack.ModuleFederationPluginOptions = {
