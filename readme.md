@@ -6,6 +6,11 @@
 - [x] (RSBuild)[https://rsbuild.dev/index]
 - [x] React
 - [x] TailwindCSS
-- [] Jotai
+- [x] Jotai
 - [] Tanstack Query
+- [x] (Biome)[https://biomejs.dev/guides/getting-started/] formatter and linter
 - [x] TypeScript
+
+## Note
+
+- Use `npm`
