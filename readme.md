@@ -15,3 +15,4 @@
 
 - Use `npm`
 - Use `Biome` for formatting and linting
+- Sharing stores (Jotai) between host and remote is not recommended since it makes apps tightly coupled and lead to trouble later when change tech stack of one app.
